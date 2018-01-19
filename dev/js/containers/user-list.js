@@ -12,9 +12,15 @@ class UserList extends Component {
       </ul>
     );
   }
-} 
+}
+
+function mapStateToProps(state) {
+  return {
+    users: state.users
+  };
+}
 
 
-export default UserList;
+export default connect(mapStateToProps)(UserList);
 
-// Once this is hooked up, we'll change the list. This is just to check it renders as expected.
+// So now, this is a smart component, or container.
