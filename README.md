@@ -9,6 +9,9 @@ Boilerplate and guide for a React/Sass/Redux build.
 To get started, first install all the necessary dependencies.
 ```
 > npm install
+
+Ensure you have these files
+.babelrc and .gitignore files. Copy file info if necessary.
 ```
 
 Run an initial webpack build
